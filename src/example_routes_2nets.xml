@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+	<person id="test_person_hotel" depart="1.00" arrival="177.00">
+        <walk edges="181190295#1 Hotel_con Hotel_arrival Hotel" busStop="Hotel_stop" speed="1.39"/>
+        <ride from="Hotel" to="Station_arrival" busStop="Station_arrival_stop" lines="taxi"/>
+    </person>
+	<person id="test_person_pnord" depart="1.00" arrival="177.00">
+        <walk edges="-128899608#0 Pnord_arrival Pnord" busStop="Pnord_stop" speed="1.39"/>
+        <ride from="Pnord" to="Station_arrival" busStop="Station_arrival_stop" lines="taxi"/>
+    </person>
+	<person id="test_person_station" depart="1.00" arrival="177.00">
+        <walk edges="85256467#1 Station_con prtE199 Station_arrival Station" busStop="Station_stop" speed="1.39"/>
+        <ride from="Station" to="Pnord_arrival" busStop="Pnord_arrival_stop" lines="taxi"/>
+    </person>
+	<person id="test_person_hospital" depart="1.00" arrival="177.00">
+        <walk edges="178153982#0 Hospital_con prtE201 Hospital_arrival Hospital" busStop="Hospital_stop" speed="1.39"/>
+        <ride from="Hospital" to="Pnord_arrival" busStop="Pnord_arrival_stop" lines="taxi"/>
+    </person>
+</routes>

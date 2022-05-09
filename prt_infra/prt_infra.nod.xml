@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-03-10 08:05:27.424326 by netdiff.py v1_11_0+0960-9a7789007a4
+  options: osm_edited.net.xml.gz joined.net.xml diff
+-->
+<nodes version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+	<location netOffset="-543074.33,-5627577.65" convBoundary="6780.31,8060.17,7884.14,9893.75" origBoundary="9.611217,50.723113,9.826982,50.917305" projParameter="+proj=utm +zone=32 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+    <!-- Deleted Elements -->
+    <!-- Created Elements -->
+    <node id="prtJ0" type="priority" x="6849.19" y="8157.93"/>
+    <node id="prtJ1" type="priority" x="6803.17" y="8215.03"/>
+    <node id="prtJ10" type="priority" x="7083.06" y="8249.21"/>
+    <node id="prtJ102" type="priority" x="7341.43" y="8147.18"/>
+    <node id="prtJ11" type="priority" x="6903.06" y="8141.28"/>
+    <node id="prtJ126" type="priority" x="6784.04" y="8244.67"/>
+    <node id="prtJ127" type="priority" x="6788.02" y="8218.45"/>
+    <node id="prtJ129" type="priority" x="6780.31" y="8261.89"/>
+    <node id="prtJ130" type="priority" x="7331.82" y="8161.15"/>
+    <node id="prtJ131" type="priority" x="7259.42" y="8744.60"/>
+    <node id="prtJ153" type="unregulated" x="7265.55" y="8786.61"/>
+    <node id="prtJ154" type="priority" x="7277.72" y="8742.95"/>
+    <node id="prtJ185" type="priority" x="7325.30" y="8152.43"/>
+    <node id="prtJ186" type="priority" x="7313.45" y="8131.58"/>
+    <node id="prtJ187" type="priority" x="7279.14" y="8769.50"/>
+    <node id="prtJ2" type="priority" x="6798.55" y="8252.09"/>
+    <node id="prtJ20" type="zipper" x="7153.85" y="8277.21"/>
+    <node id="prtJ21" type="priority" x="7108.57" y="8358.32"/>
+    <node id="prtJ22" type="priority" x="7178.89" y="8387.32"/>
+    <node id="prtJ24" type="priority" x="7201.74" y="8110.10"/>
+    <node id="prtJ25" type="priority" x="7224.44" y="8092.31"/>
+    <node id="prtJ26" type="priority" x="7292.16" y="8060.17"/>
+    <node id="prtJ27" type="priority" x="7312.86" y="8070.15"/>
+    <node id="prtJ28" type="priority" x="7331.93" y="8105.20"/>
+    <node id="prtJ29" type="priority" x="7181.47" y="8173.86"/>
+    <node id="prtJ3" type="priority" x="6805.65" y="8202.14"/>
+    <node id="prtJ30" type="priority" x="7371.79" y="8389.33"/>
+    <node id="prtJ31" type="priority" x="7491.09" y="8610.35"/>
+    <node id="prtJ32" type="priority" x="7422.98" y="8632.53"/>
+    <node id="prtJ33" type="priority" x="7429.79" y="8656.48"/>
+    <node id="prtJ34" type="priority" x="7424.74" y="8781.05"/>
+    <node id="prtJ35" type="priority" x="7462.97" y="8860.14"/>
+    <node id="prtJ36" type="zipper" x="7336.47" y="8859.88"/>
+    <node id="prtJ37" type="priority" x="7274.13" y="8865.56"/>
+    <node id="prtJ38" type="priority" x="7362.98" y="8858.45"/>
+    <node id="prtJ39" type="priority" x="7362.39" y="8871.62"/>
+    <node id="prtJ4" type="priority" x="6854.36" y="8178.35"/>
+    <node id="prtJ40" type="priority" x="7363.58" y="8853.33"/>
+    <node id="prtJ41" type="priority" x="7367.71" y="8790.01"/>
+    <node id="prtJ42" type="priority" x="7330.10" y="8975.92"/>
+    <node id="prtJ43" type="priority" x="7391.93" y="8990.07"/>
+    <node id="prtJ44" type="priority" x="7439.55" y="8970.80"/>
+    <node id="prtJ45" type="priority" x="7458.82" y="8987.90"/>
+    <node id="prtJ46" type="priority" x="7555.57" y="8988.98"/>
+    <node id="prtJ47" type="priority" x="7581.76" y="9023.18"/>
+    <node id="prtJ48" type="priority" x="7601.02" y="9093.10"/>
+    <node id="prtJ49" type="priority" x="7736.96" y="9075.35"/>
+    <node id="prtJ5" type="zipper" x="6909.03" y="8160.99"/>
+    <node id="prtJ50" type="priority" x="7770.51" y="9217.99"/>
+    <node id="prtJ51" type="priority" x="7813.80" y="9310.20"/>
+    <node id="prtJ52" type="priority" x="7830.46" y="9486.61"/>
+    <node id="prtJ53" type="priority" x="7868.99" y="9658.47"/>
+    <node id="prtJ54" type="priority" x="7871.59" y="9703.71"/>
+    <node id="prtJ55" type="priority" x="7884.14" y="9730.33"/>
+    <node id="prtJ56" type="priority" x="7872.57" y="9735.96"/>
+    <node id="prtJ57" type="priority" x="7849.08" y="9748.08"/>
+    <node id="prtJ58" type="priority" x="7814.45" y="9687.69"/>
+    <node id="prtJ59" type="priority" x="7491.72" y="9776.87"/>
+    <node id="prtJ6" type="priority" x="6933.39" y="8153.55"/>
+    <node id="prtJ60" type="priority" x="7354.05" y="9893.75"/>
+    <node id="prtJ61" type="priority" x="7330.03" y="9884.01"/>
+    <node id="prtJ62" type="priority" x="7396.91" y="9735.74"/>
+    <node id="prtJ63" type="priority" x="7412.50" y="9656.74"/>
+    <node id="prtJ64" type="priority" x="7211.20" y="9522.54"/>
+    <node id="prtJ65" type="priority" x="7195.39" y="9370.37"/>
+    <node id="prtJ67" type="priority" x="7373.14" y="8733.20"/>
+    <node id="prtJ68" type="priority" x="7356.90" y="8686.80"/>
+    <node id="prtJ69" type="priority" x="7272.04" y="8586.36"/>
+    <node id="prtJ7" type="priority" x="6961.62" y="8143.17"/>
+    <node id="prtJ70" type="priority" x="7200.77" y="8562.82"/>
+    <node id="prtJ8" type="priority" x="6980.74" y="8144.12"/>
+    <node id="prtJ9" type="priority" x="7177.80" y="8096.15"/>
+    <node id="sz_3" type="priority" x="7326.21" y="8124.18"/>
+    <node id="sz_55" type="priority" x="7282.10" y="8785.29"/>
+    <!-- Changed Elements -->
+</nodes>

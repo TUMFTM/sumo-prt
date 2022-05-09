@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-20 16:18:52 by Eclipse SUMO netconvert Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="prt_test.net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="prt_test"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <roundabouts.guess value="false"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<edges version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-gneE107" from="gneJ65" to="gneJ93" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="-gneE185" from="sz_7" to="gneJ6" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="-gneE4" from="gneJ4" to="gneJ0" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="-gneE5" from="gneJ5" to="gneJ4" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="-gneE52" from="gneJ52" to="gneJ33" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="566.66,809.97 569.81,826.01 658.62,816.98 664.42,777.44 663.81,761.42 658.64,735.68 643.71,707.85 625.36,684.20 581.85,635.96 546.98,611.82 492.68,594.95 482.67,538.47 474.05,476.78 468.01,416.89 404.29,392.14 391.46,386.90 349.20,377.15 345.39,363.77 339.26,349.25 316.84,303.11" width="1.50" allow="taxi evehicle"/>
+    <edge id="-gneE6" from="gneJ6" to="gneJ5" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="Hospital" from="gneJ54" to="gneJ87" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="Hospital_arrival" from="gneJ131" to="gneJ54" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="Hotel" from="gneJ126" to="gneJ127" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="Hotel_arrival" from="gneJ129" to="gneJ126" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="Station" from="gneJ85" to="gneJ86" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="Station_arrival" from="gneJ130" to="gneJ85" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="gneE0" from="gneJ0" to="gneJ2" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="631.28,139.33 638.13,158.41 636.23,175.61" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE107" from="gneJ93" to="gneJ65" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE114" from="gneJ96" to="sz_7" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="501.29,105.38 512.86,108.82 546.66,106.59" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE117" from="gneJ96" to="sz_1" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE119" from="sz_7" to="sz_1" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="546.66,106.59 518.39,119.89 482.43,170.03" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE13" from="sz_14" to="gneJ96" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="415.84,70.63 440.85,74.99 467.06,86.25 479.59,92.93 489.45,99.59 501.29,105.38" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE152" from="gneJ65" to="gneJ118" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="45.07,54.16 36.59,80.22 19.25,75.60" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE154" from="gneJ118" to="gneJ119" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE155" from="gneJ119" to="gneJ65" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE158" from="gneJ121" to="sz_135" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="39.18,29.86 33.91,14.47 44.68,0.00 56.28,8.34" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE162" from="gneJ15" to="sz_14" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="363.09,53.22 387.80,59.57 415.84,70.63" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE170" from="gneJ127" to="gneJ119" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE174" from="gneJ78" to="sz_14" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="374.93,87.36 380.22,79.07 415.84,70.63" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE177" from="gneJ78" to="gneJ15" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="374.93,87.36 372.66,60.98 363.09,53.22" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE179" from="gneJ93" to="gneJ121" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE180" from="gneJ33" to="sz_25" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE181" from="gneJ101" to="gneJ33" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE182" from="gneJ101" to="sz_25" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE183" from="sz_1" to="gneJ101" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="482.43,170.03 468.61,223.83 453.24,286.07 452.37,288.07 451.44,289.95 450.44,291.61 449.37,293.04 448.16,294.36 446.95,295.46 445.61,296.45 444.19,297.22 442.71,297.76 441.16,298.19 439.47,298.39 437.71,298.49 435.95,298.36 434.05,298.12 432.08,297.66 401.44,286.24 378.01,279.01 345.66,276.92 328.57,275.64" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE186" from="gneJ121" to="sz_135" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE187" from="sz_135" to="sz_5" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="56.28,8.34 63.92,19.31 78.98,33.80" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE193" from="gneJ93" to="sz_5" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE194" from="sz_5" to="gneJ15" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="78.98,33.80 95.57,43.08 141.13,61.20 143.94,62.34 146.46,63.03 148.78,63.83 150.95,64.63 152.91,65.43 154.74,66.34 156.34,67.35 157.81,68.37 159.14,69.49 160.25,70.73 161.23,71.85 161.99,73.19 162.54,74.53 163.02,75.87 164.77,90.90 206.82,87.63 236.40,77.35 260.49,67.24 282.68,58.34 330.98,47.68 363.09,53.22" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE197" from="gneJ118" to="gneJ129" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="gneE199" from="gneJ2" to="gneJ130" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="gneE2" from="gneJ2" to="sz_3" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE201" from="gneJ53" to="gneJ131" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="gneE204" from="gneJ53" to="sz_55" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50"/>
+    <edge id="gneE24" from="sz_25" to="gneJ78" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="279.79,233.80 271.35,218.48 259.54,195.35 259.43,192.79 259.45,190.45 259.75,188.23 260.19,186.01 260.92,184.02 261.78,182.02 262.85,180.25 264.14,178.49 279.09,167.40 322.06,148.24 375.30,136.97 374.93,87.36" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE3" from="sz_3" to="gneJ0" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE34" from="gneJ33" to="gneJ52" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="316.84,303.11 339.26,349.25 345.39,363.77 349.20,377.15 391.46,386.90 404.29,392.14 468.01,416.89 474.05,476.78 482.67,538.47 492.68,594.95 546.98,611.82 581.85,635.96 625.36,684.20 643.71,707.85 658.64,735.68 663.81,761.42 664.42,777.44 658.62,816.98 569.81,826.01 566.66,809.97" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE4" from="gneJ0" to="gneJ4" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE5" from="gneJ4" to="gneJ5" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE53" from="gneJ52" to="gneJ53" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE56" from="sz_55" to="gneJ52" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE58" from="gneJ4" to="gneJ0" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE59" from="gneJ5" to="gneJ4" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE6" from="gneJ5" to="gneJ6" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE60" from="gneJ6" to="gneJ5" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE62" from="gneJ15" to="gneJ93" priority="-1" type="highway.prt" numLanes="1" speed="13.89" shape="363.09,53.22 330.98,47.68 282.68,58.34 260.49,67.24 236.40,77.35 206.82,87.63 164.77,90.90 163.02,75.87 162.54,74.53 161.99,73.19 161.23,71.85 160.25,70.73 159.14,69.49 157.81,68.37 156.34,67.35 154.74,66.34 152.91,65.43 150.95,64.63 148.78,63.83 146.46,63.03 143.94,62.34 141.13,61.20 95.57,43.08 79.18,34.25 49.48,35.19" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE7" from="gneJ6" to="sz_7" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE96" from="gneJ86" to="sz_3" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+    <edge id="gneE99" from="gneJ87" to="sz_55" priority="-1" type="highway.prt" numLanes="1" speed="13.89" width="1.50" allow="taxi evehicle"/>
+
+    <roundabout nodes="gneJ101 gneJ78 gneJ96 sz_1 sz_14 sz_25" edges="gneE117 gneE13 gneE174 gneE182 gneE183 gneE24"/>
+
+</edges>

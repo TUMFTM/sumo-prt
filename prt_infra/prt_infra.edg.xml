@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-03-10 08:05:33.340474 by netdiff.py v1_11_0+0960-9a7789007a4
+  options: osm_edited.net.xml.gz joined.net.xml diff
+-->
+<edges version="1.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgediff_file.xsd">
+    <!-- Deleted Elements -->
+    <!-- Created Elements -->
+    <edge id="-prtE10" allow="taxi evehicle" from="prtJ10" numLanes="1" priority="-1" speed="13.89" to="prtJ8" type="highway.prt" width="1.50"/>
+    <edge id="-prtE21" allow="taxi evehicle" from="prtJ26" numLanes="1" priority="-1" speed="13.89" to="prtJ25" type="highway.prt" width="1.50"/>
+    <edge id="-prtE22" allow="taxi evehicle" from="prtJ27" numLanes="1" priority="-1" speed="13.89" to="prtJ26" type="highway.prt" width="1.50"/>
+    <edge id="-prtE23" allow="taxi evehicle" from="prtJ28" numLanes="1" priority="-1" speed="13.89" to="prtJ27" type="highway.prt" width="1.50"/>
+    <edge id="-prtE24" allow="taxi evehicle" from="sz_3" numLanes="1" priority="-1" speed="13.89" to="prtJ28" type="highway.prt" width="1.50"/>
+    <edge id="-prtE3" allow="taxi evehicle" from="prtJ3" numLanes="1" priority="-1" speed="13.89" to="prtJ1" type="highway.prt" width="1.50"/>
+    <edge id="-prtE36" allow="taxi evehicle" from="prtJ37" numLanes="1" priority="-1" speed="13.89" to="prtJ36" type="highway.prt" width="1.50"/>
+    <edge id="-prtE37" allow="taxi evehicle" from="prtJ153" numLanes="1" priority="-1" speed="13.89" to="prtJ37" type="highway.prt" width="1.50"/>
+    <edge id="-prtE4" allow="taxi evehicle" from="prtJ4" numLanes="1" priority="-1" speed="13.89" to="prtJ3" type="highway.prt" width="1.50"/>
+    <edge id="-prtE43" allow="taxi evehicle" from="prtJ39" numLanes="1" priority="-1" speed="13.89" to="prtJ42" type="highway.prt" width="1.50"/>
+    <edge id="-prtE5" allow="taxi evehicle" from="prtJ5" numLanes="1" priority="-1" speed="13.89" to="prtJ4" type="highway.prt" width="1.50"/>
+    <edge id="-prtE6" allow="taxi evehicle" from="prtJ6" numLanes="1" priority="-1" speed="13.89" to="prtJ5" type="highway.prt" width="1.50"/>
+    <edge id="Depot" allow="taxi evehicle" from="prtJ0" numLanes="1" priority="-1" speed="13.89" to="prtJ11" type="highway.prt" width="1.50"/>
+    <edge id="Hospital" from="prtJ154" numLanes="2" priority="-1" speed="13.89" to="prtJ187" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Hospital_arrival" from="prtJ131" numLanes="2" priority="-1" speed="13.89" to="prtJ154" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Hotel" from="prtJ126" numLanes="2" priority="-1" speed="13.89" to="prtJ127" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Hotel_arrival" from="prtJ129" numLanes="2" priority="-1" speed="13.89" to="prtJ126" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Pnord" from="prtJ56" numLanes="2" priority="-1" speed="13.89" to="prtJ57" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Pnord_arrival" from="prtJ55" numLanes="2" priority="-1" speed="13.89" to="prtJ56" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Station" from="prtJ185" numLanes="2" priority="-1" speed="13.89" to="prtJ186" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="Station_arrival" from="prtJ130" numLanes="2" priority="-1" speed="13.89" to="prtJ185" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="prtE0" allow="taxi evehicle" from="prtJ1" numLanes="1" priority="-1" speed="13.89" to="prtJ2" type="highway.prt" width="1.50"/>
+    <edge id="prtE1" allow="taxi evehicle" from="prtJ2" numLanes="1" priority="-1" speed="13.89" to="prtJ129" type="highway.prt" width="1.50"/>
+    <edge id="prtE10" allow="taxi evehicle" from="prtJ8" numLanes="1" priority="-1" speed="13.89" to="prtJ10" type="highway.prt" width="1.50"/>
+    <edge id="prtE11" allow="taxi evehicle" from="prtJ8" numLanes="1" priority="-1" speed="13.89" to="prtJ6" type="highway.prt" width="1.50"/>
+    <edge id="prtE12" allow="taxi evehicle" from="prtJ4" numLanes="1" priority="-1" speed="13.89" to="prtJ0" type="highway.prt" width="1.50"/>
+    <edge id="prtE13" allow="taxi evehicle" from="prtJ67" numLanes="1" priority="-1" speed="13.89" to="prtJ68" type="highway.prt" width="1.50"/>
+    <edge id="prtE14" allow="taxi evehicle" from="prtJ11" numLanes="1" priority="-1" speed="13.89" to="prtJ5" type="highway.prt" width="1.50"/>
+    <edge id="prtE15" allow="taxi evehicle" from="prtJ10" numLanes="1" priority="-1" speed="13.89" to="prtJ20" type="highway.prt" width="1.50"/>
+    <edge id="prtE19" allow="taxi evehicle" from="prtJ9" numLanes="1" priority="-1" speed="13.89" to="prtJ24" type="highway.prt" width="1.50"/>
+    <edge id="prtE199" from="prtJ102" numLanes="2" priority="-1" speed="13.89" to="prtJ130" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="prtE2" allow="taxi evehicle" from="prtJ127" numLanes="1" priority="-1" speed="13.89" to="prtJ1" type="highway.prt" width="1.50"/>
+    <edge id="prtE20" allow="taxi evehicle" from="prtJ9" numLanes="1" priority="-1" speed="13.89" to="prtJ25" type="highway.prt" width="1.50"/>
+    <edge id="prtE201" from="prtJ153" numLanes="2" priority="-1" speed="13.89" to="prtJ131" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="prtE21" allow="taxi evehicle" from="prtJ25" numLanes="1" priority="-1" speed="13.89" to="prtJ26" type="highway.prt" width="1.50"/>
+    <edge id="prtE22" allow="taxi evehicle" from="prtJ26" numLanes="1" priority="-1" speed="13.89" to="prtJ27" type="highway.prt" width="1.50"/>
+    <edge id="prtE23" allow="taxi evehicle" from="prtJ27" numLanes="1" priority="-1" speed="13.89" to="prtJ28" type="highway.prt" width="1.50"/>
+    <edge id="prtE24" allow="taxi evehicle" from="prtJ28" numLanes="1" priority="-1" speed="13.89" to="sz_3" type="highway.prt" width="1.50"/>
+    <edge id="prtE25" allow="taxi evehicle" from="sz_3" numLanes="1" priority="-1" speed="13.89" to="prtJ102" type="highway.prt" width="1.50"/>
+    <edge id="prtE26" allow="taxi evehicle" from="prtJ25" numLanes="1" priority="-1" speed="13.89" to="prtJ24" type="highway.prt" width="1.50"/>
+    <edge id="prtE27" allow="taxi evehicle" from="prtJ24" numLanes="1" priority="-1" speed="13.89" to="prtJ29" type="highway.prt" width="1.50"/>
+    <edge id="prtE28" allow="taxi evehicle" from="prtJ29" numLanes="1" priority="-1" speed="13.89" to="prtJ20" type="highway.prt" width="1.50"/>
+    <edge id="prtE29" allow="taxi evehicle" from="prtJ20" numLanes="1" priority="-1" speed="13.89" to="prtJ30" type="highway.prt" width="1.50"/>
+    <edge id="prtE3" allow="taxi evehicle" from="prtJ1" numLanes="1" priority="-1" speed="13.89" to="prtJ3" type="highway.prt" width="1.50"/>
+    <edge id="prtE30" allow="taxi evehicle" from="prtJ30" numLanes="1" priority="-1" speed="13.89" to="prtJ31" type="highway.prt" width="1.50"/>
+    <edge id="prtE31" allow="taxi evehicle" from="prtJ31" numLanes="1" priority="-1" speed="13.89" to="prtJ32" type="highway.prt" width="1.50"/>
+    <edge id="prtE32" allow="taxi evehicle" from="prtJ32" numLanes="1" priority="-1" speed="13.89" to="prtJ33" type="highway.prt" width="1.50"/>
+    <edge id="prtE33" allow="taxi evehicle" from="prtJ33" numLanes="1" priority="-1" speed="13.89" to="prtJ34" type="highway.prt" width="1.50"/>
+    <edge id="prtE34" allow="taxi evehicle" from="prtJ34" numLanes="1" priority="-1" speed="13.89" to="prtJ35" type="highway.prt" width="1.50"/>
+    <edge id="prtE35" allow="taxi evehicle" from="prtJ35" numLanes="1" priority="-1" speed="13.89" to="prtJ36" type="highway.prt" width="1.50"/>
+    <edge id="prtE36" allow="taxi evehicle" from="prtJ36" numLanes="1" priority="-1" speed="13.89" to="prtJ37" type="highway.prt" width="1.50"/>
+    <edge id="prtE37" from="prtJ37" numLanes="2" priority="-1" speed="13.89" to="prtJ153" type="highway.prt">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="taxi evehicle" width="1.50"/>
+    </edge>
+    <edge id="prtE38" allow="taxi evehicle" from="prtJ36" numLanes="1" priority="-1" speed="13.89" to="prtJ38" type="highway.prt" width="1.50"/>
+    <edge id="prtE39" allow="taxi evehicle" from="prtJ38" numLanes="1" priority="-1" speed="13.89" to="prtJ39" type="highway.prt" width="1.50"/>
+    <edge id="prtE4" allow="taxi evehicle" from="prtJ3" numLanes="1" priority="-1" speed="13.89" to="prtJ4" type="highway.prt" width="1.50"/>
+    <edge id="prtE40" allow="taxi evehicle" from="prtJ36" numLanes="1" priority="-1" speed="13.89" to="prtJ40" type="highway.prt" width="1.50"/>
+    <edge id="prtE41" allow="taxi evehicle" from="prtJ40" numLanes="1" priority="-1" speed="13.89" to="prtJ41" type="highway.prt" width="1.50"/>
+    <edge id="prtE42" allow="taxi evehicle" from="prtJ39" numLanes="1" priority="-1" speed="13.89" to="prtJ36" type="highway.prt" width="1.50"/>
+    <edge id="prtE43" allow="taxi evehicle" from="prtJ42" numLanes="1" priority="-1" speed="13.89" to="prtJ39" type="highway.prt" width="1.50"/>
+    <edge id="prtE44" allow="taxi evehicle" from="prtJ42" numLanes="1" priority="-1" speed="13.89" to="prtJ43" type="highway.prt" width="1.50"/>
+    <edge id="prtE45" allow="taxi evehicle" from="prtJ43" numLanes="1" priority="-1" speed="13.89" to="prtJ44" type="highway.prt" width="1.50"/>
+    <edge id="prtE46" allow="taxi evehicle" from="prtJ44" numLanes="1" priority="-1" speed="13.89" to="prtJ45" type="highway.prt" width="1.50"/>
+    <edge id="prtE47" allow="taxi evehicle" from="prtJ45" numLanes="1" priority="-1" speed="13.89" to="prtJ46" type="highway.prt" width="1.50"/>
+    <edge id="prtE48" allow="taxi evehicle" from="prtJ46" numLanes="1" priority="-1" speed="13.89" to="prtJ47" type="highway.prt" width="1.50"/>
+    <edge id="prtE49" allow="taxi evehicle" from="prtJ47" numLanes="1" priority="-1" speed="13.89" to="prtJ48" type="highway.prt" width="1.50"/>
+    <edge id="prtE5" allow="taxi evehicle" from="prtJ4" numLanes="1" priority="-1" speed="13.89" to="prtJ5" type="highway.prt" width="1.50"/>
+    <edge id="prtE50" allow="taxi evehicle" from="prtJ48" numLanes="1" priority="-1" speed="13.89" to="prtJ49" type="highway.prt" width="1.50"/>
+    <edge id="prtE51" allow="taxi evehicle" from="prtJ49" numLanes="1" priority="-1" speed="13.89" to="prtJ50" type="highway.prt" width="1.50"/>
+    <edge id="prtE52" allow="taxi evehicle" from="prtJ50" numLanes="1" priority="-1" speed="13.89" to="prtJ51" type="highway.prt" width="1.50"/>
+    <edge id="prtE53" allow="taxi evehicle" from="prtJ51" numLanes="1" priority="-1" speed="13.89" to="prtJ52" type="highway.prt" width="1.50"/>
+    <edge id="prtE54" allow="taxi evehicle" from="prtJ52" numLanes="1" priority="-1" speed="13.89" to="prtJ53" type="highway.prt" width="1.50"/>
+    <edge id="prtE55" allow="taxi evehicle" from="prtJ53" numLanes="1" priority="-1" speed="13.89" to="prtJ54" type="highway.prt" width="1.50"/>
+    <edge id="prtE56" allow="taxi evehicle" from="prtJ54" numLanes="1" priority="-1" speed="13.89" to="prtJ55" type="highway.prt" width="1.50"/>
+    <edge id="prtE58" allow="taxi evehicle" from="prtJ70" numLanes="1" priority="-1" speed="13.89" to="prtJ22" type="highway.prt" width="1.50"/>
+    <edge id="prtE59" allow="taxi evehicle" from="prtJ57" numLanes="1" priority="-1" speed="13.89" to="prtJ58" type="highway.prt" width="1.50"/>
+    <edge id="prtE6" allow="taxi evehicle" from="prtJ5" numLanes="1" priority="-1" speed="13.89" to="prtJ6" type="highway.prt" width="1.50"/>
+    <edge id="prtE60" allow="taxi evehicle" from="prtJ58" numLanes="1" priority="-1" speed="13.89" to="prtJ59" type="highway.prt" width="1.50"/>
+    <edge id="prtE61" allow="taxi evehicle" from="prtJ59" numLanes="1" priority="-1" speed="13.89" to="prtJ60" type="highway.prt" width="1.50"/>
+    <edge id="prtE62" allow="taxi evehicle" from="prtJ60" numLanes="1" priority="-1" speed="13.89" to="prtJ61" type="highway.prt" width="1.50"/>
+    <edge id="prtE63" allow="taxi evehicle" from="prtJ61" numLanes="1" priority="-1" speed="13.89" to="prtJ62" type="highway.prt" width="1.50"/>
+    <edge id="prtE64" allow="taxi evehicle" from="prtJ62" numLanes="1" priority="-1" speed="13.89" to="prtJ63" type="highway.prt" width="1.50"/>
+    <edge id="prtE65" allow="taxi evehicle" from="prtJ63" numLanes="1" priority="-1" speed="13.89" to="prtJ64" type="highway.prt" width="1.50"/>
+    <edge id="prtE66" allow="taxi evehicle" from="prtJ64" numLanes="1" priority="-1" speed="13.89" to="prtJ65" type="highway.prt" width="1.50"/>
+    <edge id="prtE67" allow="taxi evehicle" from="prtJ65" numLanes="1" priority="-1" speed="13.89" to="prtJ42" type="highway.prt" width="1.50"/>
+    <edge id="prtE7" allow="taxi evehicle" from="prtJ6" numLanes="1" priority="-1" speed="13.89" to="prtJ7" type="highway.prt" width="1.50"/>
+    <edge id="prtE72" allow="taxi evehicle" from="prtJ41" numLanes="1" priority="-1" speed="13.89" to="prtJ67" type="highway.prt" width="1.50"/>
+    <edge id="prtE73" allow="taxi evehicle" from="prtJ22" numLanes="1" priority="-1" speed="13.89" to="prtJ21" type="highway.prt" width="1.50"/>
+    <edge id="prtE74" allow="taxi evehicle" from="prtJ68" numLanes="1" priority="-1" speed="13.89" to="prtJ69" type="highway.prt" width="1.50"/>
+    <edge id="prtE75" allow="taxi evehicle" from="prtJ69" numLanes="1" priority="-1" speed="13.89" to="prtJ70" type="highway.prt" width="1.50"/>
+    <edge id="prtE76" allow="taxi evehicle" from="prtJ21" numLanes="1" priority="-1" speed="13.89" to="prtJ10" type="highway.prt" width="1.50"/>
+    <edge id="prtE78" allow="taxi evehicle" from="sz_55" numLanes="1" priority="-1" speed="13.89" to="prtJ153" type="highway.prt" width="1.50"/>
+    <edge id="prtE8" allow="taxi evehicle" from="prtJ7" numLanes="1" priority="-1" speed="13.89" to="prtJ8" type="highway.prt" width="1.50"/>
+    <edge id="prtE9" allow="taxi evehicle" from="prtJ6" numLanes="1" priority="-1" speed="13.89" to="prtJ9" type="highway.prt" width="1.50"/>
+    <edge id="prtE96" allow="taxi evehicle" from="prtJ186" numLanes="1" priority="-1" speed="13.89" to="sz_3" type="highway.prt" width="1.50"/>
+    <edge id="prtE99" allow="taxi evehicle" from="prtJ187" numLanes="1" priority="-1" speed="13.89" to="sz_55" type="highway.prt" width="1.50"/>
+    <!-- Changed Elements -->
+</edges>

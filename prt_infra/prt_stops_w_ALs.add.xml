@@ -1,0 +1,39 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!--Depot-->
+    <parkingArea id="depot" lane="Depot_0" startPos="-9" endPos="-1" roadsideCapacity="50" friendlyPos="1" width="1.5" length="2.5" angle="90.00"/>
+    <!--Hotel-->
+    <busStop id="Hotel_stop" lane="Hotel_1"  startPos="-5.1" endPos="-0.1" lines="Taxi" parkingLength="10.00">
+		<access lane="181190299_0" pos="35"/>
+	</busStop>
+    <busStop id="Hotel_arrival_stop" lane="Hotel_arrival_1" startPos="0" lines="Taxi" endPos="5" parkingLength="10.00">
+		<access lane="181190299_0" pos="35"/>
+	</busStop>
+    <parkingArea id="Hotel" lane="Hotel_1" startPos="0" endPos="7.5" length="2.5" width="1.5" roadsideCapacity="5" friendlyPos="1" angle="90.00"/>
+    <!--Station-->
+    <busStop id="Station_stop" lane="Station_1" startPos="-5.1" endPos="-0.1" lines="Taxi" parkingLength="10.00">
+		<access lane="-85256467#1_0" pos="1"/>
+	</busStop>
+    <busStop id="Station_arrival_stop" lane="Station_arrival_1" startPos="0" lines="Taxi" endPos="5" parkingLength="10.00">
+		<access lane="-85256467#1_0" pos="1"/>
+	</busStop>
+    <parkingArea id="Station" lane="Station_1" startPos="0" endPos="7.5" length="2.5" width="1.5" roadsideCapacity="5" friendlyPos="1" angle="90.00"/>
+    <!--Hospital-->
+
+    <busStop id="Hospital_stop" lane="Hospital_1"  startPos="-5.1" endPos="-0.1" lines="Taxi" parkingLength="10.00">
+		<access lane="-178153993#3_0" pos="10"/>
+	</busStop>
+    <busStop id="Hospital_arrival_stop" lane="Hospital_arrival_1" startPos="0" lines="Taxi" endPos="5" parkingLength="10.00">
+		<access lane="-178153993#3_0" pos="10"/>
+	</busStop>
+    <parkingArea id="Hospital" lane="Hospital_1" startPos="0" endPos="7.5" length="2.5" width="1.5" roadsideCapacity="5" friendlyPos="1" angle="90.00"/>
+
+    <busStop id="Pnord_stop" lane="Pnord_1"  startPos="-5.1" endPos="-0.1" lines="Taxi" parkingLength="10.00">
+		<access lane="128899608#0_0" pos="10"/>
+	</busStop>
+    <busStop id="Pnord_arrival_stop" lane="Pnord_arrival_1" startPos="0" lines="Taxi" endPos="5" parkingLength="10.00">
+		<access lane="128899608#0_0" pos="10"/>
+	</busStop>
+    <parkingArea id="Pnord" lane="Pnord_1" startPos="0" endPos="7.5" length="2.5" width="1.5" roadsideCapacity="5" friendlyPos="1" angle="90.00"/>
+	
+
+</additional>

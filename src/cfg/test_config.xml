@@ -1,0 +1,8 @@
+<configuration>
+    <config value="prt.sumocfg" help="sumo config to run"/>
+    <duration value="30000" help="simulation duration in seconds"/>
+    <nogui value="False" help="run the commandline version of sumo"/>
+    <stop-line value="-15.0" help="stop line distance in meters"/>
+    <time-step value="1.0" help="simulation step size"/>
+    <v2i-range value="200.0" help="communication distance in meters"/>
+</configuration>
