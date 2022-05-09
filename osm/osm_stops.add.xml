@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-01-18 08:47:15 by Eclipse SUMO netconvert Version v1_11_0+0960-9a7789007a4
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="../osm/osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="../osm/osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="../osm/osm_stops.add.xml"/>
+        <ptline-output value="../osm/osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1384946492" name="Bad Hersfeld, Stadthalle" lane="-65547495#4_0" startPos="9.94" endPos="24.94" friendlyPos="true" lines="380"/>
+    <busStop id="-1423153564" name="Abzweig Eichhof" lane="-172009563#1_0" startPos="162.38" endPos="177.38" friendlyPos="true" lines="380">
+        <access lane="-117862558#0_0" pos="114.31" length="36.21" friendlyPos="1"/>
+        <access lane="-70674499#0_0" pos="25.69" length="3.35" friendlyPos="1"/>
+        <access lane="117862558#0_0" pos="286.70" length="41.01" friendlyPos="1"/>
+        <access lane="128870294#0_0" pos="0.00" length="41.84" friendlyPos="1"/>
+        <access lane="70674499#0_0" pos="671.85" length="6.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-1423153571" name="Bad Hersfeld, St.-Elisabeth-Krankenhaus" lane="-29074526#3_0" startPos="236.39" endPos="251.39" friendlyPos="true" lines="380"/>
+    <busStop id="-281476590" lane="-742003272_0" startPos="19.35" endPos="34.35" friendlyPos="true" lines="330 340"/>
+    <busStop id="-2873550174" name="Bad Hersfeld, Seniorenwohnheim" lane="-65547495#1_0" startPos="18.03" endPos="33.03" friendlyPos="true" lines="380"/>
+    <busStop id="-2873550176" name="Bad Hersfeld, Südtor" lane="-104709800#4_0" startPos="1.28" endPos="10.88" friendlyPos="true" lines="380"/>
+    <busStop id="-3281721222" name="Lindenallee" lane="-67332191#2_0" startPos="32.79" endPos="47.79" friendlyPos="true" lines="300 340 330"/>
+    <busStop id="-4256032967" name="Abzweig Eichhof" lane="-172009563#1_0" startPos="162.99" endPos="177.99" friendlyPos="true" lines="X33">
+        <access lane="-70674499#0_0" pos="25.40" length="14.18" friendlyPos="1"/>
+        <access lane="128870294#0_0" pos="0.24" length="41.29" friendlyPos="1"/>
+        <access lane="128870294#1_0" pos="0.00" length="40.63" friendlyPos="1"/>
+        <access lane="70674499#0_0" pos="672.13" length="17.18" friendlyPos="1"/>
+        <access lane="70674499#1_0" pos="0.00" length="45.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4256032969" name="Asbach, Friedhofsweg" lane="-124416773#0_0" startPos="70.19" endPos="85.19" friendlyPos="true" lines="X33"/>
+    <busStop id="-4256032973" name="Bad Hersfeld, Bahnhof" lane="-124416801#0_0" startPos="13.34" endPos="28.34" friendlyPos="true" lines="470 380"/>
+    <busStop id="-4256034101" name="Ziegelei" lane="-240612228_0" startPos="2.59" endPos="17.59" friendlyPos="true" lines="X33 380">
+        <access lane="-71408584#4_0" pos="0.00" length="39.61" friendlyPos="1"/>
+        <access lane="-71408584#5_0" pos="124.08" length="34.79" friendlyPos="1"/>
+        <access lane="128894644_0" pos="5.79" length="22.98" friendlyPos="1"/>
+        <access lane="71408584#4_0" pos="25.07" length="35.65" friendlyPos="1"/>
+        <access lane="71408584#5_0" pos="7.67" length="29.99" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4267243041" name="Bad Hersfeld" lane="-313931872#2_0" startPos="64.34" endPos="264.34" friendlyPos="true">
+        <access lane="313932367#1_0" pos="4.70" length="4.53" friendlyPos="1"/>
+        <access lane="385107329#4_0" pos="4.60" length="12.50" friendlyPos="1"/>
+        <access lane="489831134#0_0" pos="0.00" length="8.31" friendlyPos="1"/>
+        <access lane="489831135_0" pos="0.00" length="14.73" friendlyPos="1"/>
+        <access lane="529924924_0" pos="0.00" length="14.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6205383609" name="Bad Hersfeld Bahnhof" lane="-124416801#0_0" startPos="13.34" endPos="28.34" friendlyPos="true" lines="360"/>
+    <busStop id="-6363208028" name="Sorga Forsthaus" lane="-67332189#2_0" startPos="1.42" endPos="16.42" friendlyPos="true" lines="300 340 330"/>
+    <busStop id="-6363208029" name="Wilhelmshof" lane="-321421855#0_0" startPos="12.03" endPos="27.03" friendlyPos="true" lines="300 340 330"/>
+    <busStop id="-6946110634" lane="-742003272_0" startPos="19.35" endPos="34.35" friendlyPos="true" lines="340"/>
+    <busStop id="-6989886662" name="Rauherweg" lane="-200313022#8_0" startPos="29.49" endPos="44.49" friendlyPos="true" lines="345"/>
+    <busStop id="-6989886667" name="Grenzebachstraße" lane="-200313022#16_0" startPos="11.65" endPos="26.65" friendlyPos="true" lines="345"/>
+    <busStop id="-807097875" name="Bienrückstraße" lane="-321421861#6_0" startPos="3.18" endPos="10.68" friendlyPos="true" lines="300 340 330"/>
+    <busStop id="-948566449" name="Gewerbegebiet" lane="-321022100_0" startPos="20.65" endPos="42.39" friendlyPos="true" lines="360"/>
+    <busStop id="-990476632" name="Wippershainer Straße" lane="-200313022#3_0" startPos="129.82" endPos="144.82" friendlyPos="true" lines="345"/>
+    <busStop id="1275784902" name="Ludwigsau-Friedlos" lane="281243616#4_0" startPos="486.10" endPos="686.10" friendlyPos="true" lines="RB5">
+        <access lane="-26205512#0_0" pos="1658.10" length="68.28" friendlyPos="1"/>
+        <access lane="26205512#0_0" pos="219.10" length="71.28" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1384946480" name="Bad Hersfeld, St.-Elisabeth-Krankenhaus" lane="29074526#3_0" startPos="159.40" endPos="174.40" friendlyPos="true" lines="380"/>
+    <busStop id="1423153563" name="Abzweig Eichhof" lane="172009563#1_0" startPos="21.21" endPos="36.21" friendlyPos="true" lines="380">
+        <access lane="-70674499#0_0" pos="27.42" length="27.07" friendlyPos="1"/>
+        <access lane="128870294#0_0" pos="0.24" length="47.47" friendlyPos="1"/>
+        <access lane="128870294#1_0" pos="4.85" length="41.82" friendlyPos="1"/>
+        <access lane="70674499#0_0" pos="670.12" length="30.07" friendlyPos="1"/>
+        <access lane="70674499#1_0" pos="0.00" length="53.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1423153572" name="Ziegelei" lane="240612228_0" startPos="13.30" endPos="28.30" friendlyPos="true" lines="380">
+        <access lane="-71408584#4_0" pos="16.02" length="44.27" friendlyPos="1"/>
+        <access lane="128894644_0" pos="5.79" length="38.46" friendlyPos="1"/>
+        <access lane="71408584#3_0" pos="123.34" length="52.04" friendlyPos="1"/>
+        <access lane="71408584#4_0" pos="9.05" length="39.47" friendlyPos="1"/>
+        <access lane="71408584#5_0" pos="0.00" length="50.63" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1423165927" name="Bad Hersfeld, Neumarkt" lane="26013146#4_0" startPos="12.78" endPos="27.78" friendlyPos="true" lines="380"/>
+    <busStop id="1423179202" name="Bad Hersfeld, Hainstraße" lane="101371626#3_0" startPos="22.29" endPos="37.29" friendlyPos="true" lines="380"/>
+    <busStop id="1719560993" name="Amazonstraße" lane="159866405_0" startPos="372.98" endPos="387.98" friendlyPos="true"/>
+    <busStop id="2441299018" lane="742003277_0" startPos="38.82" endPos="53.82" friendlyPos="true"/>
+    <busStop id="2441299019" lane="742003277_0" startPos="38.82" endPos="53.82" friendlyPos="true" lines="345"/>
+    <busStop id="253161832" name="Am Peterstor" lane="102344318_0" startPos="22.30" endPos="37.30" friendlyPos="true" lines="330 360 470 300 340 345"/>
+    <busStop id="259997083" name="Am Peterstor" lane="102344315_0" startPos="34.56" endPos="49.56" friendlyPos="true" lines="470 360 300 340 345 330"/>
+    <busStop id="281476501" name="Aqua Fit" lane="321426011_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="345"/>
+    <busStop id="2873550173" name="Bad Hersfeld, Seniorenwohnheim" lane="65547495#1_0" startPos="30.07" endPos="45.07" friendlyPos="true" lines="380"/>
+    <busStop id="2873550175" name="Stadthalle" lane="508611302#1_0" startPos="11.28" endPos="26.28" friendlyPos="true" lines="380"/>
+    <busStop id="2873550177" name="Bad Hersfeld, Südtor" lane="104709800#2_0" startPos="0.00" endPos="14.83" friendlyPos="true" lines="380"/>
+    <busStop id="2873550178" name="Bad Hersfeld, Konrad-Duden-Schule" lane="26013145#2_0" startPos="52.47" endPos="67.47" friendlyPos="true" lines="380"/>
+    <busStop id="29756643" name="Wilhelmshof" lane="321421854_0" startPos="14.49" endPos="29.49" friendlyPos="true" lines="330 300 340"/>
+    <busStop id="29756813" name="Bienrückstraße" lane="321421861#8_0" startPos="13.78" endPos="28.78" friendlyPos="true" lines="330 300 340"/>
+    <busStop id="4256032969" name="Asbach, Friedhofsweg" lane="124416773#0_0" startPos="104.69" endPos="119.69" friendlyPos="true" lines="X33"/>
+    <busStop id="4256032973" name="Bad Hersfeld, Bahnhof" lane="655079720#1_0" startPos="0.90" endPos="15.90" friendlyPos="true" lines="470"/>
+    <busStop id="4256032974" name="Breitenstraße" lane="124416778#0_0" startPos="9.41" endPos="24.41" friendlyPos="true" lines="360 380 340"/>
+    <busStop id="4256032976" name="Bad Hersfeld, Hainstraße" lane="101371626#3_0" startPos="22.72" endPos="37.72" friendlyPos="true" lines="X33"/>
+    <busStop id="4256032977" name="Bad Hersfeld, Konrad-Duden-Schule" lane="26013145#2_0" startPos="52.43" endPos="67.43" friendlyPos="true"/>
+    <busStop id="4256032978" name="Bad Hersfeld, Neumarkt" lane="26013146#4_0" startPos="12.39" endPos="27.39" friendlyPos="true"/>
+    <busStop id="4256032979" name="Bad Hersfeld, Seniorenwohnheim" lane="65547495#1_0" startPos="26.59" endPos="41.59" friendlyPos="true"/>
+    <busStop id="4256032980" name="Bad Hersfeld, St.-Elisabeth-Krankenhaus" lane="29074526#3_0" startPos="159.81" endPos="174.81" friendlyPos="true"/>
+    <busStop id="4256032981" name="Bad Hersfeld, Stadthalle" lane="65547495#4_0" startPos="17.72" endPos="32.72" friendlyPos="true"/>
+    <busStop id="4256032982" name="Bad Hersfeld, Stadthalle" lane="508611302#1_0" startPos="11.63" endPos="26.63" friendlyPos="true"/>
+    <busStop id="4256032983" name="Bad Hersfeld, Südtor" lane="104709800#4_0" startPos="0.00" endPos="10.38" friendlyPos="true"/>
+    <busStop id="4256032984" name="Bad Hersfeld, Südtor" lane="104709800#2_0" startPos="0.00" endPos="14.84" friendlyPos="true"/>
+    <busStop id="4256034100" name="Ziegelei" lane="240612228_0" startPos="12.77" endPos="27.77" friendlyPos="true">
+        <access lane="-71408584#4_0" pos="15.95" length="28.89" friendlyPos="1"/>
+        <access lane="128894644_0" pos="5.79" length="30.06" friendlyPos="1"/>
+        <access lane="71408584#3_0" pos="123.34" length="41.88" friendlyPos="1"/>
+        <access lane="71408584#4_0" pos="9.12" length="24.09" friendlyPos="1"/>
+        <access lane="71408584#5_0" pos="0.00" length="39.62" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4267243041" name="Bad Hersfeld" lane="313931872#2_0" startPos="12.97" endPos="212.97" friendlyPos="true">
+        <access lane="313932367#1_0" pos="4.70" length="4.53" friendlyPos="1"/>
+        <access lane="385107329#4_0" pos="4.60" length="12.50" friendlyPos="1"/>
+        <access lane="489831134#0_0" pos="0.00" length="8.31" friendlyPos="1"/>
+        <access lane="489831135_0" pos="0.00" length="14.73" friendlyPos="1"/>
+        <access lane="529924924_0" pos="0.00" length="14.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4267243042" name="Bad Hersfeld" lane="245858162_0" startPos="89.33" endPos="289.33" friendlyPos="true" lines="RE5 RB5 ICE 50">
+        <access lane="126992242#2_0" pos="6.06" length="17.21" friendlyPos="1"/>
+        <access lane="126994906#1_0" pos="1.46" length="14.71" friendlyPos="1"/>
+        <access lane="489831134#0_0" pos="1.21" length="13.68" friendlyPos="1"/>
+        <access lane="489831134#1_0" pos="1.32" length="5.01" friendlyPos="1"/>
+        <access lane="489831135_0" pos="0.00" length="11.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4267243043" name="Bad Hersfeld" lane="126992226#1_0" startPos="98.97" endPos="298.97" friendlyPos="true">
+        <access lane="-126866126#0_0" pos="385.20" length="58.66" friendlyPos="1"/>
+        <access lane="-190644687_0" pos="47.57" length="53.20" friendlyPos="1"/>
+        <access lane="-900157907#0_0" pos="13.84" length="28.56" friendlyPos="1"/>
+        <access lane="190644687_0" pos="36.68" length="58.00" friendlyPos="1"/>
+        <access lane="900157908_0" pos="29.28" length="33.36" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4267243044" name="Bad Hersfeld" lane="126992225#2_0" startPos="0.00" endPos="122.08" friendlyPos="true">
+        <access lane="-126866126#0_0" pos="385.20" length="53.77" friendlyPos="1"/>
+        <access lane="-190644687_0" pos="47.93" length="39.83" friendlyPos="1"/>
+        <access lane="-900157907#0_0" pos="13.11" length="15.23" friendlyPos="1"/>
+        <access lane="190644687_0" pos="36.33" length="44.63" friendlyPos="1"/>
+        <access lane="900157908_0" pos="30.01" length="20.03" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4425634911" name="Breitenstraße" lane="124416778#1_0" startPos="56.59" endPos="71.59" friendlyPos="true" lines="330 470 340 349 345"/>
+    <busStop id="603236408" name="Bad Hersfeld" lane="275348780#5_0" startPos="623.53" endPos="823.53" friendlyPos="true" lines="RE5 RB5 ICE 50">
+        <access lane="126994906#1_0" pos="1.46" length="13.88" friendlyPos="1"/>
+        <access lane="313932367#1_0" pos="4.70" length="9.31" friendlyPos="1"/>
+        <access lane="489831134#0_0" pos="0.00" length="4.25" friendlyPos="1"/>
+        <access lane="489831134#1_0" pos="0.00" length="12.66" friendlyPos="1"/>
+        <access lane="489831135_0" pos="0.00" length="10.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="603236409" name="Ludwigsau-Friedlos" lane="275348780#0_0" startPos="186.09" endPos="386.09" friendlyPos="true" lines="RB5">
+        <access lane="-26205512#0_0" pos="1592.31" length="66.86" friendlyPos="1"/>
+        <access lane="26205512#0_0" pos="284.64" length="69.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6137947254" name="Breitenstraße" lane="159980918#0_0" startPos="13.11" endPos="28.11" friendlyPos="true" lines="360 470 380"/>
+    <busStop id="6137947256" name="Autohof" lane="151702609#1_0" startPos="15.97" endPos="30.97" friendlyPos="true" lines="360 470"/>
+    <busStop id="6189585489" name="Bad Hersfeld Bahnhof" lane="325187141#1_0" startPos="30.89" endPos="43.22" friendlyPos="true" lines="330 300 340 349 345"/>
+    <busStop id="6205383609" name="Bad Hersfeld Bahnhof" lane="655079720#1_0" startPos="0.90" endPos="15.90" friendlyPos="true" lines="360"/>
+    <busStop id="6363208027" name="Sorga Forsthaus" lane="67332189#5_0" startPos="10.76" endPos="25.76" friendlyPos="true" lines="330 300 340"/>
+    <busStop id="6363208030" name="Untere Kühnbach" lane="462191391#1_0" startPos="59.73" endPos="74.73" friendlyPos="true"/>
+    <busStop id="6367373310" name="Rauherweg" lane="200313022#8_0" startPos="69.50" endPos="84.50" friendlyPos="true" lines="345"/>
+    <busStop id="6367373319" name="Grenzebachstraße" lane="200313022#16_0" startPos="137.00" endPos="152.00" friendlyPos="true" lines="345"/>
+    <busStop id="6946110638" lane="742003277_0" startPos="38.82" endPos="53.82" friendlyPos="true"/>
+    <busStop id="6946110641" lane="742003277_0" startPos="38.82" endPos="53.82" friendlyPos="true"/>
+    <busStop id="6989886658" name="Wippershainer Straße" lane="200313022#3_0" startPos="9.55" endPos="24.55" friendlyPos="true" lines="345"/>
+    <busStop id="790328207" name="Lindenallee" lane="67332191#2_0" startPos="98.88" endPos="113.88" friendlyPos="true" lines="330 300 340"/>
+    <busStop id="948566449" name="Gewerbegebiet" lane="321022100_0" startPos="0.00" endPos="21.74" friendlyPos="true" lines="360"/>
+    <busStop id="989078968" name="Jenaer Str." lane="85328218#5_0" startPos="61.26" endPos="76.26" friendlyPos="true"/>
+</additional>
