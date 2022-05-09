@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-03-10 08:35:04 by Eclipse SUMO GUI Version v1_11_0+0960-9a7789007a4
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../prt_infra/joined.net.xml"/>
+        <route-files value="../demand/osm_activitygen_present_only_prt.rou.xml.gz,example_routes.xml"/>
+        <additional-files value="../osm/pt_vtypes.xml,../osm/gtfs_publictransport.add.xml,../osm/gtfs_publictransport.rou.xml,../osm/osm_polygons.add.xml,../osm/defaults/basic.vType.xml,../osm/osm_complete_parking_areas.add.xml,../osm/osm_parking_rerouters.add.xml,../osm/osm_taxi_stands.add.xml,../osm/osm_taxi_rerouters.add.xml,../osm/induction_loops.add.xml,../osm/edge_lane_data.add.xml,../prt_infra/prt_poly.add.xml,../prt_infra/prt_stops_w_ALs.add.xml,../prt_infra/prt_fleet.add.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="../osm/outputs/TIME_"/>
+        <summary-output value="summary.out.xml"/>
+        <person-summary-output value="person.summary.out.xml"/>
+        <tripinfo-output value="tripinfo.out.xml"/>
+        <tripinfo-output.write-unfinished value="false"/>
+        <statistic-output value="statistics.out.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="86400.0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="60"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="300"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="120"/>
+        <parking.maneuver value="true"/>
+        <pedestrian.model value="nonInteracting"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.dawdling value="0.2"/>
+        <pedestrian.striping.jamtime value="60"/>
+        <pedestrian.striping.jamtime.crossing value="10"/>
+        <pedestrian.striping.reserve-oncoming value="0.25"/>
+        <pedestrian.striping.reserve-oncoming.junctions value="0.34"/>
+        <ride.stop-tolerance value="25"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="astar"/>
+        <persontrip.walkfactor value="0.75"/>
+        <persontrip.transfer.car-walk value="parkingAreas,allJunctions"/>
+        <persontrip.transfer.taxi-walk value="parkingAreas,allJunctions"/>
+        <persontrip.transfer.walk-taxi value="parkingAreas,allJunctions"/>
+        <persontrip.taxi.waiting-time value="300"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.threads value="4"/>
+        <device.rerouting.bike-speeds value="true"/>
+        <person-device.rerouting.probability value="1"/>
+        <person-device.rerouting.period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <duration-log.disable value="false"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="false"/>
+    </report>
+
+    <taxi_device>
+        <device.taxi.dispatch-algorithm value="greedy"/>
+        <device.taxi.dispatch-algorithm.output value="taxi.dispatch.out.xml"/>
+        <device.taxi.dispatch-period value="60"/>
+        <device.taxi.idle-algorithm value="stop"/>
+        <device.taxi.idle-algorithm.output value="taxi.idle.out.xml"/>
+    </taxi_device>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="../osm/defaults/default-gui.xml"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<personSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/person_summary_file.xsd">
+    <step time="0.00" loaded="2" inserted="0" walking="0" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5130515"/>
+    <step time="1.00" loaded="2" inserted="0" walking="0" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5130666"/>
+    <step time="2.00" loaded="2" inserted="0" walking="0" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5130817"/>
+    <step time="3.00" loaded="2" inserted="0" walking="0" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5130967"/>
+    <step time="4.00" loaded="2" inserted="0" walking="0" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131117"/>
+    <step time="5.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131267"/>
+    <step time="6.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131418"/>
+    <step time="7.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131568"/>
+    <step time="8.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131718"/>
+    <step time="9.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5131869"/>
+    <step time="10.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132020"/>
+    <step time="11.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132170"/>
+    <step time="12.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132320"/>
+    <step time="13.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132470"/>
+    <step time="14.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132621"/>
+    <step time="15.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132771"/>
+    <step time="16.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5132921"/>
+    <step time="17.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133072"/>
+    <step time="18.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133222"/>
+    <step time="19.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133372"/>
+    <step time="20.00" loaded="17" inserted="1" walking="1" waitingForRide="0" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133523"/>
+    <step time="21.00" loaded="17" inserted="1" walking="0" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133674"/>
+    <step time="22.00" loaded="17" inserted="1" walking="0" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5133902"/>
+    <step time="23.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134053"/>
+    <step time="24.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134203"/>
+    <step time="25.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134354"/>
+    <step time="26.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134505"/>
+    <step time="27.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134656"/>
+    <step time="28.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134806"/>
+    <step time="29.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5134956"/>
+    <step time="30.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135106"/>
+    <step time="31.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135256"/>
+    <step time="32.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135406"/>
+    <step time="33.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135556"/>
+    <step time="34.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135706"/>
+    <step time="35.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5135857"/>
+    <step time="36.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136007"/>
+    <step time="37.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136157"/>
+    <step time="38.00" loaded="17" inserted="2" walking="1" waitingForRide="1" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136307"/>
+    <step time="39.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136457"/>
+    <step time="40.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136608"/>
+    <step time="41.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136758"/>
+    <step time="42.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5136908"/>
+    <step time="43.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137059"/>
+    <step time="44.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137210"/>
+    <step time="45.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137360"/>
+    <step time="46.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137510"/>
+    <step time="47.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137660"/>
+    <step time="48.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137810"/>
+    <step time="49.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5137960"/>
+    <step time="50.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138110"/>
+    <step time="51.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138261"/>
+    <step time="52.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138411"/>
+    <step time="53.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138561"/>
+    <step time="54.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138711"/>
+    <step time="55.00" loaded="17" inserted="2" walking="0" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5138862"/>
+    <step time="56.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139013"/>
+    <step time="57.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139163"/>
+    <step time="58.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139313"/>
+    <step time="59.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139464"/>
+    <step time="60.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139614"/>
+    <step time="61.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139765"/>
+    <step time="62.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5139916"/>
+    <step time="63.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140066"/>
+    <step time="64.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140216"/>
+    <step time="65.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140366"/>
+    <step time="66.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140516"/>
+    <step time="67.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140666"/>
+    <step time="68.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140817"/>
+    <step time="69.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5140967"/>
+    <step time="70.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141117"/>
+    <step time="71.00" loaded="17" inserted="3" walking="1" waitingForRide="2" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141267"/>
+    <step time="72.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141417"/>
+    <step time="73.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141567"/>
+    <step time="74.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141717"/>
+    <step time="75.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5141867"/>
+    <step time="76.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142017"/>
+    <step time="77.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142167"/>
+    <step time="78.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142317"/>
+    <step time="79.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142468"/>
+    <step time="80.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142618"/>
+    <step time="81.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142768"/>
+    <step time="82.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5142919"/>
+    <step time="83.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143070"/>
+    <step time="84.00" loaded="17" inserted="3" walking="0" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143221"/>
+    <step time="85.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143372"/>
+    <step time="86.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143523"/>
+    <step time="87.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143673"/>
+    <step time="88.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143824"/>
+    <step time="89.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5143975"/>
+    <step time="90.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144125"/>
+    <step time="91.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144275"/>
+    <step time="92.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144425"/>
+    <step time="93.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144576"/>
+    <step time="94.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144727"/>
+    <step time="95.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5144878"/>
+    <step time="96.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145028"/>
+    <step time="97.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145178"/>
+    <step time="98.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145329"/>
+    <step time="99.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145479"/>
+    <step time="100.00" loaded="17" inserted="4" walking="1" waitingForRide="3" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145629"/>
+    <step time="101.00" loaded="17" inserted="5" walking="1" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145779"/>
+    <step time="102.00" loaded="17" inserted="5" walking="1" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5145929"/>
+    <step time="103.00" loaded="17" inserted="5" walking="1" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146079"/>
+    <step time="104.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146230"/>
+    <step time="105.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146380"/>
+    <step time="106.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146530"/>
+    <step time="107.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146681"/>
+    <step time="108.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146831"/>
+    <step time="109.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5146982"/>
+    <step time="110.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147133"/>
+    <step time="111.00" loaded="17" inserted="6" walking="2" waitingForRide="4" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147283"/>
+    <step time="112.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147433"/>
+    <step time="113.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147584"/>
+    <step time="114.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147734"/>
+    <step time="115.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5147885"/>
+    <step time="116.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148035"/>
+    <step time="117.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148185"/>
+    <step time="118.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148336"/>
+    <step time="119.00" loaded="17" inserted="6" walking="1" waitingForRide="5" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148487"/>
+    <step time="120.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148637"/>
+    <step time="121.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148788"/>
+    <step time="122.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5148939"/>
+    <step time="123.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149090"/>
+    <step time="124.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149241"/>
+    <step time="125.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149391"/>
+    <step time="126.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149542"/>
+    <step time="127.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149693"/>
+    <step time="128.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149843"/>
+    <step time="129.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5149993"/>
+    <step time="130.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150143"/>
+    <step time="131.00" loaded="17" inserted="6" walking="0" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150293"/>
+    <step time="132.00" loaded="17" inserted="7" walking="1" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150443"/>
+    <step time="133.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150593"/>
+    <step time="134.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150743"/>
+    <step time="135.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5150894"/>
+    <step time="136.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151044"/>
+    <step time="137.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151195"/>
+    <step time="138.00" loaded="17" inserted="8" walking="2" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151345"/>
+    <step time="139.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151496"/>
+    <step time="140.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151646"/>
+    <step time="141.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151796"/>
+    <step time="142.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5151947"/>
+    <step time="143.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152098"/>
+    <step time="144.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152249"/>
+    <step time="145.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152399"/>
+    <step time="146.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152549"/>
+    <step time="147.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152700"/>
+    <step time="148.00" loaded="17" inserted="9" walking="3" waitingForRide="6" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5152851"/>
+    <step time="149.00" loaded="17" inserted="9" walking="2" waitingForRide="7" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153002"/>
+    <step time="150.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153153"/>
+    <step time="151.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153303"/>
+    <step time="152.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153454"/>
+    <step time="153.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153604"/>
+    <step time="154.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153754"/>
+    <step time="155.00" loaded="17" inserted="9" walking="1" waitingForRide="8" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5153905"/>
+    <step time="156.00" loaded="17" inserted="9" walking="0" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154056"/>
+    <step time="157.00" loaded="17" inserted="9" walking="0" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154207"/>
+    <step time="158.00" loaded="17" inserted="9" walking="0" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154357"/>
+    <step time="159.00" loaded="17" inserted="9" walking="0" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154507"/>
+    <step time="160.00" loaded="17" inserted="9" walking="0" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154658"/>
+    <step time="161.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154809"/>
+    <step time="162.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5154960"/>
+    <step time="163.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155111"/>
+    <step time="164.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155261"/>
+    <step time="165.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155411"/>
+    <step time="166.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155561"/>
+    <step time="167.00" loaded="17" inserted="10" walking="1" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155711"/>
+    <step time="168.00" loaded="17" inserted="11" walking="2" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5155861"/>
+    <step time="169.00" loaded="17" inserted="11" walking="2" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156012"/>
+    <step time="170.00" loaded="17" inserted="11" walking="2" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156162"/>
+    <step time="171.00" loaded="17" inserted="11" walking="2" waitingForRide="9" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156313"/>
+    <step time="172.00" loaded="17" inserted="11" walking="1" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156464"/>
+    <step time="173.00" loaded="17" inserted="11" walking="1" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156614"/>
+    <step time="174.00" loaded="17" inserted="11" walking="1" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156764"/>
+    <step time="175.00" loaded="17" inserted="11" walking="1" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5156914"/>
+    <step time="176.00" loaded="17" inserted="11" walking="1" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157065"/>
+    <step time="177.00" loaded="17" inserted="12" walking="2" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157216"/>
+    <step time="178.00" loaded="17" inserted="12" walking="2" waitingForRide="10" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157367"/>
+    <step time="179.00" loaded="17" inserted="13" walking="2" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157517"/>
+    <step time="180.00" loaded="17" inserted="14" walking="3" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157668"/>
+    <step time="181.00" loaded="17" inserted="14" walking="3" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157819"/>
+    <step time="182.00" loaded="17" inserted="14" walking="3" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5157969"/>
+    <step time="183.00" loaded="17" inserted="14" walking="3" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5158120"/>
+    <step time="184.00" loaded="17" inserted="14" walking="3" waitingForRide="11" riding="0" stopping="0" jammed="0" ended="0" arrived="0" duration="5158269"/>
+    <step time="185.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5158419"/>
+    <step time="186.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5158570"/>
+    <step time="187.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5158720"/>
+    <step time="188.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5158871"/>
+    <step time="189.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159022"/>
+    <step time="190.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159171"/>
+    <step time="191.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159322"/>
+    <step time="192.00" loaded="17" inserted="14" walking="3" waitingForRide="10" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159472"/>
+    <step time="193.00" loaded="17" inserted="14" walking="2" waitingForRide="11" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159622"/>
+    <step time="194.00" loaded="17" inserted="14" walking="2" waitingForRide="11" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159772"/>
+    <step time="195.00" loaded="17" inserted="14" walking="1" waitingForRide="12" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5159922"/>
+    <step time="196.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160072"/>
+    <step time="197.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160223"/>
+    <step time="198.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160374"/>
+    <step time="199.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160524"/>
+    <step time="200.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160674"/>
+    <step time="201.00" loaded="17" inserted="14" walking="0" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160825"/>
+    <step time="202.00" loaded="17" inserted="15" walking="1" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5160975"/>
+    <step time="203.00" loaded="17" inserted="15" walking="1" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5161125"/>
+    <step time="204.00" loaded="17" inserted="15" walking="1" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5161276"/>
+    <step time="205.00" loaded="17" inserted="15" walking="1" waitingForRide="13" riding="1" stopping="0" jammed="0" ended="0" arrived="0" duration="5161426"/>
+</personSummary>
